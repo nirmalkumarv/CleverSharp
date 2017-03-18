@@ -3,7 +3,7 @@
 namespace CleverSharp.Models
 {
     
-    public class Teacher
+    public class Teachers : CleverRequestDocument
     {
         public DateTime Created { get; set; }
         public Credentials Credentials { get; set; }

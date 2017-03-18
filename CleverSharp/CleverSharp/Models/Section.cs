@@ -5,7 +5,7 @@ using System.Text;
 namespace CleverSharp.Models
 {
 
-    public class Section
+    public class Sections : CleverRequestDocument
     {
         public string Course_Name { get; set; }
         public string Course_Number { get; set; }
