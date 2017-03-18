@@ -5,7 +5,7 @@ using System.Text;
 namespace CleverSharp.Models
 {
 
-    public class School
+    public class Schools :  CleverRequestDocument 
     {
         public DateTime Created { get; set; }
         public string District { get; set; }

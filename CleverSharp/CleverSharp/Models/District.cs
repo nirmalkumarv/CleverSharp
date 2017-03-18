@@ -7,7 +7,7 @@ namespace CleverSharp.Models
 
    
 
-    public class District
+    public class Districts : CleverRequestDocument
     {
         public string Name { get; set; }
         public string Id { get; set; }

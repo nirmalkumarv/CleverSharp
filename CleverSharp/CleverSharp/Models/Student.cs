@@ -6,7 +6,7 @@ namespace CleverSharp.Models
 {
     
 
-        public class Student
+        public class Students : CleverRequestDocument
     {
             public DateTime Created { get; set; }
             public Credentials Credentials { get; set; }

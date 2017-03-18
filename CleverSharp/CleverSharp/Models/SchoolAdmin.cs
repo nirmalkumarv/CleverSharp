@@ -6,7 +6,7 @@ namespace CleverSharp.Models
 {
     
 
-    public class SchoolAdmin
+    public class School_Admins : CleverRequestDocument
     {
         public string District { get; set; }
         public string Email { get; set; }

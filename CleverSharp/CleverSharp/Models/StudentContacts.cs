@@ -13,7 +13,7 @@ namespace CleverSharp.Models
         public int Count { get; set; }
     }
 
-    public class StudentContact
+    public class StudentContacts : CleverRequestDocument
     {
         public string Name { get; set; }
         public string Type { get; set; }
